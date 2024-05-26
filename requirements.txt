@@ -1,7 +1,7 @@
 tensorflow
 pandas
 dvc
-notbook
+notebook
 numpy
 matplotlib
 seaborn
@@ -14,4 +14,4 @@ types-PyYAML
 scipy
 Flask
 Flask-Cors
--e. .
+-e .
