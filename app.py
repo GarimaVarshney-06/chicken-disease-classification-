@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify, render_template
 import os
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS, cross_origin 
 from CNNclassifier.utils.common import decodeImage
 from CNNclassifier.pipeline.predict import PredictionPipeline
 
@@ -43,6 +43,6 @@ def predictRoute():
 
 if __name__ == "__main__":
     clApp = ClientApp()
-    app.run(host='0.0.0.0', port=8080) #local host
+    app.run(host='0.0.0.0', port=4444) #local host
     # app.run(host='0.0.0.0', port=8080) #for AWS
     # app.run(host='0.0.0.0', port=80) #for AZURE

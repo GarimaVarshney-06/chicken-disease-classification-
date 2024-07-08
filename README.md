@@ -9,3 +9,11 @@
 7. Update the pipeline
 8. Update the main.py
 9. Update the dvc.yaml
+
+
+
+### how i make this whole project line by line
+1. template file 
+2. requirements
+3. setup 
+4. logging to create it we go inside src directory and write code  in __init__.py
